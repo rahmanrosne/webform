@@ -1,0 +1,376 @@
+
+/* start form css */
+body{
+    margin: 0;
+    padding: 0;
+}
+.conteainer{
+    display: flex;
+}
+
+.form-left-section{
+    background-color: #39CBB6;
+    width: 65%;
+    padding-top: 100px 0;
+    padding-bottom: 101px;
+}
+.form-left-wrapper{
+padding-left: 210px;
+position: relative;
+padding-top: 100px ;
+}
+
+.form-left-wrapper h2{
+    color: rgb(169, 205, 234);
+    font-size:45px ;
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 0;
+    bottom: 30%;
+    right: 579px;
+}
+form .name{
+    padding-bottom: 20px;
+    display: flex;
+
+}
+form .name input{
+    background-color: azure;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 40%;
+}
+form .name textarea{
+    background-color: azure;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    width: 91%;
+    height: 100px;
+}
+.submitbtn button{
+background-color: rgb(246, 243, 243);
+border: 1px solid #39CBB6;;
+cursor: pointer;
+transition: 0.5s ease-in-out;
+padding: 12px 15px;
+font-size: 20px;
+font-weight: 700;
+border-radius: 5px;
+
+
+
+}
+.form-right-section{
+    background-color:aliceblue;
+    width: 35%;
+    padding-left: 60px;
+    padding-top: 100px 0;
+    padding-top: 60px ;
+}
+.form-right-section h4{
+font-size: 30px;
+}
+.featur-list ul li{
+    padding:10px 5px ;
+    list-style: none;
+    
+}
+
+.featur-list ul li i{
+    padding-right: 15px ;
+    
+}
+
+.about-us button{
+    background-color: #39CBB6;
+    border: 1px solid #39CBB6;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    padding: 12px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
+.about-us button:hover{
+    background-color: aliceblue;
+    border: 1px solid rgb(224, 224, 239);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    padding: 12px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+.submitbtn button:hover{
+background-color: #39CBB6;
+    border: 1px solid #39CBB6;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    padding: 12px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+
+
+/* end form css */
+
+
+
+
+
+
+
+
+
+
+/* Start Responsive Css Code  */
+
+
+/********************************************************/
+/* over devices **********************************/
+/***/ 
+@media only screen and (min-width: 1600px){
+
+
+}
+
+/********************************************************/
+/* xxl devices **********************************/
+/***/   
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+
+
+}
+
+/********************************************************/
+/* xl devices **********************************/
+/***/ 
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+ 
+
+}
+
+
+/********************************************************/
+/* lg devices **********************************/
+/***/  
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+    .form-left-section{
+        width: 60%;
+        padding-left: 15px;
+        padding-right: 10px;
+    } 
+    .form-left-wrapper{
+        width: 95%;
+        padding-left: 32px;
+       }
+
+    .form-left-wrapper h2 {
+        position: absolute;
+        transform: rotate(0deg);
+        bottom: 80%;
+        padding-left: 85px;
+        
+    }
+    .form-right-section {
+        padding-top: 40px;
+        padding-left: 15px;
+        padding-right: 10px;
+       }
+    .form-right-section h4{
+        font-size: 24px;
+    }
+    
+    form .name textarea{
+        width: 80%;
+        height: 100px;
+    } 
+
+    form .name{
+        padding-bottom: 0px;
+        display:block;
+        width: 100%; 
+    }
+    form .name input{
+        border: none;
+        margin-right: 20px;
+        width: 75%;
+        margin-bottom: 15px;
+    }
+    .submitbtn button{
+        margin-top: 10px;
+    }
+
+    .conteainer{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0;
+
+
+       }
+
+}
+  
+/********************************************************/
+/* md devices **********************************/
+/********************************************************/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .form-left-section{
+        width: 60%;
+        padding-left: 15px;
+        padding-right: 10px;
+    } 
+    .form-left-wrapper{
+        width: 95%;
+        padding-left: 32px;
+       }
+
+    .form-left-wrapper h2 {
+        position: absolute;
+        transform: rotate(0deg);
+        bottom: 80%;
+        padding-left: 85px;
+        
+    }
+    .form-right-section {
+        padding-top: 40px;
+        padding-left: 15px;
+        padding-right: 10px;
+       }
+    .form-right-section h4{
+        font-size: 24px;
+    }
+    
+    form .name textarea{
+        width: 80%;
+        height: 100px;
+    } 
+
+    form .name{
+        padding-bottom: 0px;
+        display:block;
+        width: 100%; 
+    }
+    form .name input{
+        border: none;
+        margin-right: 20px;
+        width: 75%;
+        margin-bottom: 15px;
+    }
+    .submitbtn button{
+        margin-top: 10px;
+    }
+
+    .conteainer{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0;
+
+
+       }
+}
+  
+
+/********************************************************/
+/* xs devices **********************************/
+/********************************************************/
+@media (max-width: 767px){
+
+    .form-left-section{
+        background-color: #39CBB6;
+        width: 100%;
+        padding-top: 100px 0;
+        padding-bottom: 101px;
+        display: block;
+        padding-left: 0px;
+    }
+
+   .form-right-section {
+    display:none;
+   }
+   .form-left-wrapper{
+    width: 100%;
+    padding-left: 9px;
+   }
+  
+.form-left-wrapper h2{
+    color: rgb(169, 205, 234);
+    font-size:45px ;
+    position: absolute;
+    transform: rotate(0);
+    left: 20px;
+    bottom: 85%;
+}
+   .conteainer{
+    display: block;
+    width: 100%;
+   }
+
+
+
+   .form-right-section{
+    background-color:aliceblue;
+    width: 85%;
+    padding-left: 48px;
+    padding-top: 100px 0;
+    padding-top: 60px ;
+    display: block;
+    
+}
+
+form .name textarea{
+    width: 81%;
+    height: 100px;
+}
+
+.form-right-section h4{
+    font-size: 20px;
+}
+
+form .name{
+    padding-bottom: 0px;
+    display:block;
+    width: 100%;
+
+}
+
+
+form .name input{
+    border: none;
+    margin-right: 20px;
+    width: 75%;
+    margin-bottom: 15px;
+}
+ 
+.submitbtn button{
+    margin-top: 10px;
+}
+
+
+.featur-list ul li i{
+    padding-right: 15px ;
+    padding-left: 0px;
+}
+
+}
+
+/********************************************************/
+/* sm devices **********************************/
+/********************************************************/
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+}
